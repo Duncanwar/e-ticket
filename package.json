@@ -1,0 +1,26 @@
+{
+  "name": "e-ticket",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Duncanwar/e-ticket.git",
+  "author": "Duncanwar <semunda9@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev":"nodemon source/server.ts",
+    "build":"rm -rf build/ && prettier --write source/ && tsc"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/express": "^4.17.17",
+    "@types/morgan": "^1.9.4",
+    "axios": "^1.4.0",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22",
+    "pg": "^8.10.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.31.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
