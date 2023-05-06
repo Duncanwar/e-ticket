@@ -9,3 +9,6 @@ const PORT = process.env.PORT
 app.use(cors());
 app.use(bodyParser.json());
 
+app.listen(PORT,()=>{
+    console.log('listening on port')
+});
